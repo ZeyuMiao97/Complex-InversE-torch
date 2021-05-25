@@ -1,7 +1,7 @@
-# ED-SimplE-torch
+# Complex-InversE-torch
 Run ED-SimplE with Pytorch
 # Summary
-This software can be used to run ED-SimplE on datasets FB15k-237 and WN18RR with Pytorch.
+This software can be used to run Complex-InversE on datasets FB15k-237 and WN18RR with Pytorch.
 # Installation
 1. Install PyTorch using Anaconda.
 2. Install the requirements `pip install -r requirements.txt`
@@ -11,9 +11,9 @@ This software can be used to run ED-SimplE on datasets FB15k-237 and WN18RR with
 # Running a model
 Parameters need to be specified by white-space tuples for example:  
   
-`python main.py --model ed_simple --data FB15k-237`  
+`python main.py --model Complex-InversE --data FB15k-237`  
   
-will run a ED-SimplE model on FB15k-237.  
+will run a Complex-InversE model on FB15k-237.  
 
 To run a model, you first need to preprocess the data once. This can be done by specifying the `--preprocess` parameter:  
 
@@ -23,7 +23,7 @@ After the dataset is preprocessed it will be saved to disk and this parameter ca
 
 The following parameters can be used for the `--model` parameter:  
   
-`ed_simple`  
+`Complex-InversE`  
 `distmult`  
 `complex`  
   
